@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk Typer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Talk Typer</h1>
+    </header>
+
+    <button id="themeToggle">Toggle Theme</button>
+
+    <div class="container">
+        <div class="manual-input">
+            <h2>Manual Input</h2>
+            <textarea id="manualInput" rows="4" cols="50" style="font-size: 18px; width: 100%;"></textarea>
+            <button id="addManualNoteButton">Add Note</button>
+            <button id="speechButton">
+                <img src="mic1.png" alt="Microphone Icon">
+                Start Listening
+            </button>
+            <button id="transcribeButton" disabled>Transcribe</button>
+            <p id="transcription"></p>
+        </div>
+    </div>
+
+    <div class="history">
+        <h2>Notes History</h2>
+        <ul id="notesList"></ul>
+        <button id="clearHistoryButton">Clear History</button>
+    </div>
+
+    <button id="themeToggle">Toggle Theme</button>
+
+    <footer>
+        <p>TalkTyper By DigiTech MRK</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

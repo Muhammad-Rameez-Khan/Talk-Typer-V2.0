@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333; /* Darker background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #1a0aff; /* Border bottom */
+}
+
+/* Main container styles */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Button styles */
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #1a0aff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+/* Microphone button icon */
+#speechButton img {
+    width: 30px; 
+    height: 30px; /* Adjust the height as needed */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0d0055; /* Darken on hover */
+}
+
+/* Text styles */
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* History and manual input section styles */
+.history,
+.manual-input {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd; /* Lighter border */
+    border-radius: 15px;
+    background-color: #f9f9f9; /* Light background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Section headings styles */
+.history h2,
+.manual-input h2 {
+    font-size: 24px; /* Slightly smaller font size */
+    margin-bottom: 20px;
+    color: #333; /* Darker color */
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: #111;
+    color: #eee;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Darker background */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    border-top: 2px solid #1a0aff; /* Border top */
+}
+
+/* Footer link styles */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #1a0aff; /* Hover color */
+}
+
+/* Responsive design */
+@media only screen and (max-width: 768px) {
+    .container,
+    .history,
+    .manual-input {
+        width: 95%;
+        max-width: none;
+    }
+}
