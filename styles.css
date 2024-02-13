@@ -6,11 +6,11 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333; /* Darker background */
+    background-color: #333; 
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    border-bottom: 2px solid #1a0aff; /* Border bottom */
+    border-bottom: 2px solid #1a0aff; 
 }
 
 /* Main container styles */
@@ -58,18 +58,18 @@ p {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ddd; /* Lighter border */
+    border: 1px solid #ddd; 
     border-radius: 15px;
-    background-color: #f9f9f9; /* Light background */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 /* Section headings styles */
 .history h2,
 .manual-input h2 {
-    font-size: 24px; /* Slightly smaller font size */
+    font-size: 24px; 
     margin-bottom: 20px;
-    color: #333; /* Darker color */
+    color: #333; 
 }
 
 /* Dark theme styles */
@@ -80,7 +80,7 @@ body.dark-theme {
 
 /* Footer styles */
 footer {
-    background-color: #333; /* Darker background */
+    background-color: #333; 
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -88,7 +88,7 @@ footer {
     bottom: 0;
     width: 100%;
     z-index: 100;
-    border-top: 2px solid #1a0aff; /* Border top */
+    border-top: 2px solid #1a0aff; 
 }
 
 /* Footer link styles */
@@ -99,7 +99,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #1a0aff; /* Hover color */
+    color: #1a0aff; 
 }
 
 /* Responsive design */

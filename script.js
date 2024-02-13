@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 localStorage.setItem('notesHistory', JSON.stringify(notesHistory));
                 renderNotesHistory();
 
-                transcribeButton.disabled = false; // Enable transcribe button after recording ends
+                transcribeButton.disabled = false; 
             };
         }
         recognition.start();
@@ -111,14 +111,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 editNoteContent(index, noteContent);
             });
 
-            // Add a delete button to each note entry
+            // Added a delete button to each note entry
             const deleteButton = document.createElement('button');
             deleteButton.textContent = 'Delete';
             deleteButton.addEventListener('click', () => {
                 deleteNote(index);
             });
 
-            // Add a speech button to read note aloud
+            // Added a speech button to read note aloud
             const speechButton = document.createElement('button');
             speechButton.textContent = 'Speak';
             speechButton.addEventListener('click', () => {
